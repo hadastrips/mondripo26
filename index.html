@@ -208,23 +208,22 @@
             background-color: #e6f7f7 !important;
         }
         /* Footer */
-       footer {
+        .footer {
             text-align: center;
-            margin-top: 30px;
-            padding-top: 20px;
+            margin-top: 40px;
+            padding: 20px 10px;
             border-top: 1px solid #ddd;
         }
-
-        .footer-colored {
-            color: var(--primary-color);
-            font-weight: 700;
-            font-size: 15px;
+        .footer-line1 {
+            font-size: 16px;
+            font-weight: bold;
+            color: #008B8B;
             margin-bottom: 5px;
+            display: block;
         }
-
-        .footer-gray {
-            color: #777777;
+        .footer-line2 {
             font-size: 12px;
+            color: #7f8c8d;
         }
     </style>
 </head>
@@ -236,7 +235,7 @@
     <div class="header">
         <img src="1.jpg" alt="Logo" class="logo">
         <div class="title-container">
-            <h1 class="main-title">ממשפחת מונדרי בפולין</h1>
+            <h1 class="main-title">משפחת מונדרי בפולין</h1>
             <h2 class="subtitle">2-11/8/2026</h2>
         </div>
         
@@ -245,7 +244,7 @@
             <a href="https://goo.gl/maps/qMoJpMD5Nwri1xYz7?g_st=an" target="_blank" class="quick-link-btn"><i class="fa-solid fa-house"></i> הוילה</a>
             <a href="https://maps.app.goo.gl/WPqP7iVcuVKz9AfPA" target="_blank" class="quick-link-btn"><i class="fa-solid fa-cart-shopping"></i> סופר</a>
             <a href="https://maps.app.goo.gl/gdSRZAMjBwR7jsAF9" target="_blank" class="quick-link-btn"><i class="fa-solid fa-synagogue"></i> תפילות</a>
-            <a href="https://www.accuweather.com/en/pl/bia%C5%82ka-tatrzanska/268128/weather-forecast/268128" target="_blank" class="quick-link-btn"><i class="fa-solid fa-cloud-sun"></i> מזג אוויר ביאלקה</a>
+            <a href="https://www.accuweather.com/en/pl/bia%C5%82ka-tatrzanska/268128/weather-forecast/268128?type=locality#google_vignette" target="_blank" class="quick-link-btn"><i class="fa-solid fa-cloud-sun"></i> תחזית ביאלקה</a>
         </div>
     </div>
 
@@ -266,7 +265,7 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-clock"></i><span>08:00 הגעה לשדה התעופה</span></div>
+                <div class="info-row"><i class="fa-solid fa-clock"></i><span>08:00 הגעה לשדה</span></div>
                 <div class="info-row"><i class="fa-solid fa-plane-up"></i><span>11:00 המראה לקרקוב</span></div>
                 <div class="info-row"><i class="fa-solid fa-plane-arrival"></i><span>14:00 נחיתה בקרקוב</span></div>
             </div>
@@ -278,7 +277,7 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>דלפקי השכרה בקומה שניה אחרי היציאה לאולם קבלת הפנים. חברת onerent.</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>דלפקי השכרה בקומה שניה אחרי היציאה לאולם קבלת הפנים.<br>חברת onerent</span></div>
             </div>
         </details>
         
@@ -289,17 +288,18 @@
             </summary>
             <div class="details-content">
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://goo.gl/maps/qMoJpMD5Nwri1xYz7?g_st=an" target="_blank">ניווט לוילה שלכם</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-cart-shopping"></i><span>מומלץ לעשות קניות</span></div>
             </div>
         </details>
     </div>
 
     <!-- Day 2 -->
     <div class="day-card">
-        <h2><i class="fa-regular fa-calendar-days"></i> יום שני 3/8 - סלובקיה</h2>
+        <h2><i class="fa-regular fa-calendar-days"></i> יום שני 3/8 - הטטרה הגבוהים בסלובקיה</h2>
         
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-cloud main-icon"></i> תחזית מזג אוויר</div>
+                <div class="summary-title"><i class="fa-solid fa-cloud main-icon"></i> תחזית טטרה גבוהים</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
@@ -313,22 +313,22 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מסלול יפהפה. יציאה לדרך ב-10:00.</span></div>
+                <div class="info-row"><i class="fa-solid fa-car-side"></i><span>10:00 יציאה לדרך</span></div>
                 <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות כניסה: רכבל+צמרות עצים 30 יורו לאדם</span></div>
                 <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 9:00-18:00</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/5Mw5tEt26rM9dgVa6" target="_blank">ניווט לחניה</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/5Mw5tEt26rM9dgVa6" target="_blank">ניווט לחניה</a></span></div>
             </div>
         </details>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-cable-car main-icon"></i> 13:00-15:30 - רכבל טטרה לומניצקי וגו קארט</div>
+                <div class="summary-title"><i class="fa-solid fa-cable-car main-icon"></i> 13:00-15:30 - רכבל טטרה לומניצקי וגו קארט (אופציונלי)</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>עליה ברכבל לאגם סקאלנאטה פלסו וירידה בגו קארט. (אופציונלי)</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>עליה ברכבל לאגם סקאלנאטה פלסו וירידה בגו קארט.<br>אגם - תחנה שניה ברכבל, גו קארט - תחנה ראשונה.</span></div>
                 <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות כניסה: 34 יורו למבוגר | עלות גו קארט: 16 יורו לנוסע</span></div>
-                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה: 08:00-18:30 (קופות נסגרות ב-15:30)</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה: 08:00-18:30 קופות נסגרות ב-15:30</span></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/XTPMBbCAKJmUX5F57" target="_blank">ניווט למקום</a></span></div>
             </div>
         </details>
@@ -340,17 +340,17 @@
             </summary>
             <div class="details-content">
                 <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>אגם יפהפה מוקף הרים, אפשרות לשייט סירות משוטים במקום. כניסה חופשית.</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/vvYBDN1vSv8aXe466" target="_blank">ניווט לחניה</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/vvYBDN1vSv8aXe466" target="_blank">ניווט לחניה</a></span></div>
             </div>
         </details>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-mountain-sun main-icon"></i> 18:30-19:00 - תצפית הרי הטטרה</div>
+                <div class="summary-title"><i class="fa-solid fa-mountain-sun main-icon"></i> 18:30-19:00 - תצפית יפהפייה על הרי הטטרה (אופציונלי)</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>עצירה לסוף יום מול הנוף. כניסה וחניה חינם. 19:30 חזרה לדירה.</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>עצירה לסוף יום מול הנוף. כניסה חופשית, חניה חינם.<br>19:30 חזרה לדירה.</span></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/1j6zJpdQa3q6wBZe6" target="_blank">ניווט לתצפית</a></span></div>
             </div>
         </details>
@@ -358,15 +358,15 @@
 
     <!-- Day 3 -->
     <div class="day-card">
-        <h2><i class="fa-regular fa-calendar-days"></i> יום שלישי 4/8 - אגם צורשטיין</h2>
+        <h2><i class="fa-regular fa-calendar-days"></i> יום שלישי 4/8 - אגם צורשטיין ונופים</h2>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-cloud main-icon"></i> תחזית מזג אוויר</div>
+                <div class="summary-title"><i class="fa-solid fa-cloud main-icon"></i> תחזית אגם צורשטיין</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-link"></i><span><a href="https://www.accuweather.com/en/pl/czorsztyn/1411082/daily-weather-forecast/1411082" target="_blank">תחזית לאגם צורשטיין</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-link"></i><span><a href="https://www.accuweather.com/en/pl/czorsztyn/1411082/daily-weather-forecast/1411082" target="_blank">תחזית אגם צורשטיין</a></span></div>
             </div>
         </details>
 
@@ -376,23 +376,60 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מגלשות הרים קצרות וכיפיות עם נוף לאגם. חניה חינם. יציאה ב-10:00.</span></div>
-                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 15 זלוטי לסיבוב, 135 זלוטי ל-10 סיבובים.</span></div>
+                <div class="info-row"><i class="fa-solid fa-car-side"></i><span>10:00 יציאה לדרך</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מגלשות הרים קצרות וכיפיות עם נוף לאגם</span></div>
                 <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 10:00-18:00</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/easdRrU4Y6PPbhMP8" target="_blank">ניווט למגלשות</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 15 זלוטי לסיבוב, 135 זלוטי ל-10 סיבובים</span></div>
+                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/easdRrU4Y6PPbhMP8" target="_blank">חניה חינם במקום</a></span></div>
             </div>
         </details>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-water main-icon"></i> 11:30-14:00 - אגם צורשטיין ופעילויות</div>
+                <div class="summary-title"><i class="fa-solid fa-water main-icon"></i> 11:30-14:00 - אגם צורשטיין</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span><b>טיילת על האגם:</b> כניסה חופשית. <a href="https://maps.app.goo.gl/RhWR85iymoMSVp3p8" target="_blank">ניווט לחניה</a></span></div>
-                <div class="info-row"><i class="fa-brands fa-fort-awesome"></i><span><b>טירת צורשטיין (אופציה):</b> 9-18. 12 זלוטי. <a href="https://maps.app.goo.gl/H3bnaWRvEuH55Pqn8" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-person-arrow-down-to-line"></i><span><b>אומגה (אופציה):</b> 10.5-18. 40 זלוטי. <a href="https://maps.app.goo.gl/D7kUMkUoUD2GTyg86" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-ship"></i><span><b>שייט (אופציה):</b> 38 זלוטי. <a href="https://maps.app.goo.gl/p5RLyyVo2gatrStEA" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>טיילת על האגם, כניסה חופשית</span></div>
+                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/RhWR85iymoMSVp3p8" target="_blank">ניווט לחניה</a></span></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>
+                <div class="summary-title"><i class="fa-brands fa-fort-awesome main-icon"></i> טירת צורשטיין על האגם (אופציונלי)</div>
+                <i class="fa-solid fa-chevron-down chevron-icon"></i>
+            </summary>
+            <div class="details-content">
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>טירה עתיקה ומעניינת, נוף יפה מלמעלה</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 9:00-18:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 12 זלוטי למבוגר</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/H3bnaWRvEuH55Pqn8" target="_blank">ניווט לטירה</a></span></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>
+                <div class="summary-title"><i class="fa-solid fa-person-arrow-down-to-line main-icon"></i> אומגה על האגם (אופציונלי)</div>
+                <i class="fa-solid fa-chevron-down chevron-icon"></i>
+            </summary>
+            <div class="details-content">
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>אומגה כיפית על האגם, הלוך חזור</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 10:30-18:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 40 זלוטי לאדם</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/D7kUMkUoUD2GTyg86" target="_blank">ניווט לאומגה</a></span></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>
+                <div class="summary-title"><i class="fa-solid fa-ship main-icon"></i> שייט אגם צורשטיין (אופציונלי)</div>
+                <i class="fa-solid fa-chevron-down chevron-icon"></i>
+            </summary>
+            <div class="details-content">
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>שייט קסום באגם לגדה המקבילה לטירה נוספת/טיילת על האגם, שייט של כ-15 דק' לצד</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 38 זלוטי למבוגר</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/p5RLyyVo2gatrStEA" target="_blank">ניווט לשייט</a></span></div>
             </div>
         </details>
 
@@ -402,21 +439,21 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>עליה ברכבל פתוח לנוף מדהים וטיול קליל בשטח.</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>עליה ברכבל פתוח לנוף מדהים וטיול קליל בשטח, פיקניק מול הנוף</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 9:00-17:00</span></div>
                 <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 25 זלוטי מבוגר</span></div>
-                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 09:00-17:00</span></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/ihRzUwyMFVjXevzo8" target="_blank">ניווט לרכבל</a></span></div>
             </div>
         </details>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-route main-icon"></i> 17:00-18:00 - טיילת נחל גרייצארק</div>
+                <div class="summary-title"><i class="fa-solid fa-route main-icon"></i> 17:00-18:00 - טיילת נחל גרייצארק (אופציונלי)</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>טיילת קסומה. חזרה לדירה ב-19:00. (אופציונלי)</span></div>
-                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/numG9aKagoVTYxzx5" target="_blank">חניה</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>טיילת קסומה לצד נחל גרייצארק עד מפגש הנחלים עם נהר הדונייץ. כניסה חופשית.<br>19:00 חזרה לדירה.</span></div>
+                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/numG9aKagoVTYxzx5" target="_blank">חניה מומלצת</a></span></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/uELn2WjhKWUFHhvn8" target="_blank">הטיילת</a></span></div>
             </div>
         </details>
@@ -432,7 +469,7 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מסלול הליכה רגלי קליל בעמק ירוק לצד נחל זורם.</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מסלול הליכה רגלי קליל בעמק ירוק לצד נחל זורם, לא מעגלי, הליכה נינוחה של שעה וחצי לצד, ניתן לפגוש כבשים בדרך וברווזים במים.</span></div>
                 <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 9 זלוטי לאדם</span></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/qPzkrgWrGQa9HuHw5" target="_blank">ניווט למסלול</a></span></div>
             </div>
@@ -444,10 +481,12 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>עולים להר עם פוניקולר. פארק חבלים, אלפקות, דוכנים.</span></div>
-                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 49 זלוטי מבוגר, 39 זלוטי ילד.</span></div>
-                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 09:00-20:00</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/aCAQnZQPWFT5N7hj7" target="_blank">ניווט לפוניקולר</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>עולים להר עם פוניקולר, בהר יש פארק חבלים, חוות אלפקות, דוכני מזכרות, נקודות תצפית יפות.</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות 09:00-20:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 49 זלוטי מבוגר, 39 זלוטי ילד 5-26</span></div>
+                <div class="info-row"><i class="fa-solid fa-link"></i><span><a href="https://www.sklep.pkl.pl/en/product-groups/index,8,tickets.html?_gl=1*pz2r34*_gcl_au*MTQyNDc4NjQ2NC4xNzgzODE1MTM0*_ga*MjEyMjk3NzIyNS4xNzgzODE1MTMz*_ga_V87BLNYCVS*czE3ODQwNDI4MDMkbzIkZzAkdDE3ODQwNDI4MDMkajYwJGwwJGgxMzk4Mzc0OTYx" target="_blank">רכישה אונליין מוזילה ב-4 זלוטי לכרטיס</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/eFRPLoNuz4gwxQU76" target="_blank">חניה סמוך לפוניקולר</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/aCAQnZQPWFT5N7hj7" target="_blank">פוניקלור להר גובלוקה</a></span></div>
             </div>
         </details>
 
@@ -457,8 +496,9 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מדרחוב תוסס ויפה עם חנויות אומנות.</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/ic8tGpU788mJW9PQ8" target="_blank">ניווט לחניה</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מדרחוב תוסס ויפה עם חנויות אומנות.<br>ניתן להשאיר את הרכב בחניה של הפוניקולר לגבלוקה.</span></div>
+                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/ic8tGpU788mJW9PQ8" target="_blank">ניווט לחניה</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-shirt"></i><span><a href="https://maps.app.goo.gl/wc2zN7ohnXrC9KQn7" target="_blank">חנות בגדי ילדים מומלצת</a></span></div>
             </div>
         </details>
 
@@ -469,8 +509,8 @@
             </summary>
             <div class="details-content">
                 <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>19:30 חזרה לדירה.</span></div>
-                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>49 זלוטי מבוגר, 43 ילד.</span></div>
                 <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 10:00-20:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>49 זלוטי מבוגר, 43 ילד, כרטיס משפחתי 110 זלוטי זוג+1</span></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/JB6f72M6fvmB1AgF9" target="_blank">ניווט למוזיאון</a></span></div>
             </div>
         </details>
@@ -478,31 +518,57 @@
 
     <!-- Day 5 -->
     <div class="day-card">
-        <h2><i class="fa-regular fa-calendar-days"></i> יום חמישי 6/8 - קרקוב</h2>
+        <h2><i class="fa-regular fa-calendar-days"></i> יום חמישי 6/8 - יום בקרקוב, חוה חוזרת לישראל</h2>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-star-of-david main-icon"></i> 10:30-13:30 - סיור יהדות קרקוב</div>
+                <div class="summary-title"><i class="fa-solid fa-star-of-david main-icon"></i> 10:30-13:30 - סיור בעקבות יהדות קרקוב</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>יציאה ב-08:30. <a href="https://maps.app.goo.gl/qvXF4YkDMtnV2Rof8" target="_blank">מסלול מלא</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-synagogue"></i><span><b>בית הכנסת וקבר הרמ"א:</b> 15 זלוטי. <a href="https://maps.app.goo.gl/driNp1ncrHYAZva76" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-synagogue"></i><span><b>אלטע שול:</b> 20 זלוטי. <a href="https://maps.app.goo.gl/BQP5p1PtkuGEtfdJ6" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-bridge"></i><span><b>גשר:</b> <a href="https://maps.app.goo.gl/bsYvEuwG2tbmZPjA6" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-chair"></i><span><b>כיכר הגטו:</b> <a href="https://maps.app.goo.gl/kWQVus4z8M27UmR2A" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-prescription-bottle-medical"></i><span><b>בית מרקחת:</b> 20 זלוטי. <a href="https://maps.app.goo.gl/uv1KfJ1FSkjt81RJA" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-industry"></i><span><b>שינדלר:</b> 60 זלוטי. <a href="https://maps.app.goo.gl/GR42N2spfqSEmmpY8" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-car-side"></i><span>8:30 יציאה לדרך</span></div>
+                <div class="info-row"><i class="fa-solid fa-route"></i><span><a href="https://maps.app.goo.gl/qvXF4YkDMtnV2Rof8" target="_blank">הסיור המלא מנקודה לנקודה</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-synagogue"></i><span><b>בית הכנסת וקבר הרמ"א:</b> שעות פתיחה 10-18, כניסה 15 זלוטי, תשלום במזומן. חניה זמינה ברחוב (מדחן). <a href="https://maps.app.goo.gl/driNp1ncrHYAZva76" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-synagogue"></i><span><b>אלטע שול, בית הכנסת העתיק ומוזיאון:</b> שעות 9-17, 20 זלוטי למבוגר. <a href="https://maps.app.goo.gl/BQP5p1PtkuGEtfdJ6" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-bridge"></i><span><b>גשר הולכי רגל מעל נהר הויסלה:</b> <a href="https://maps.app.goo.gl/bsYvEuwG2tbmZPjA6" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-chair"></i><span><b>כיכר גבורי הגטו:</b> <a href="https://maps.app.goo.gl/kWQVus4z8M27UmR2A" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-block-brick"></i><span><b>שריד מחומות הגטו:</b> <a href="https://maps.app.goo.gl/WYbddpAkZSu2pNmv8" target="_blank">ניווט</a></span></div>
             </div>
         </details>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-plane main-icon"></i> 14:00-14:30 - פרידה מחוה</div>
+                <div class="summary-title"><i class="fa-solid fa-prescription-bottle-medical main-icon"></i> בית המרקחת מתחת לנשר (אופציונלי)</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-plane-departure"></i><span>הגעה לשדה לטיסה של חוה</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מוזיאון מיצגים</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות 9:00-17:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>כניסה 20 זלוטי</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/uv1KfJ1FSkjt81RJA" target="_blank">ניווט</a></span></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>
+                <div class="summary-title"><i class="fa-solid fa-industry main-icon"></i> בית החרושת של שינדלר (אופציונלי)</div>
+                <i class="fa-solid fa-chevron-down chevron-icon"></i>
+            </summary>
+            <div class="details-content">
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות 9:00-20:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>כניסה 60 זלוטי</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/GR42N2spfqSEmmpY8" target="_blank">ניווט</a></span></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>
+                <div class="summary-title"><i class="fa-solid fa-plane main-icon"></i> 14:00-14:30 - הגעה לשדה טיסה של חוה</div>
+                <i class="fa-solid fa-chevron-down chevron-icon"></i>
+            </summary>
+            <div class="details-content">
+                <div class="info-row"><i class="fa-solid fa-plane-departure"></i><span>טיסת אלעל לישראל של חוה ב-16:30</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/qDJBeVGd6LAc6gXq7" target="_blank">ניווט לשדה התעופה</a></span></div>
             </div>
         </details>
 
@@ -512,25 +578,25 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-basket-shopping"></i><span><b>אאוטלט:</b> 10-21. <a href="https://maps.app.goo.gl/UP1xRV6ioEZckQW59" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-basket-shopping"></i><span><b>קניון גדול:</b> 10-21. <a href="https://maps.app.goo.gl/2TxHy2DFiFzCJ4av8" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-basket-shopping"></i><span><b>קניון אאוטלט מותגים:</b> 15 דק' מהשדה. שעות 10:00-21:00, חניה חינם במקום. <a href="https://maps.app.goo.gl/UP1xRV6ioEZckQW59" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-basket-shopping"></i><span><b>קניון גדול (עם פריימרק ומבחר חנויות):</b> 30 דק' מהשדה. שעות 10:00-21:00, חניה חינם במקום. <a href="https://maps.app.goo.gl/2TxHy2DFiFzCJ4av8" target="_blank">ניווט</a></span></div>
             </div>
         </details>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-utensils main-icon"></i> 18:30-20:00 - ארוחת ערב</div>
+                <div class="summary-title"><i class="fa-solid fa-utensils main-icon"></i> 18:30-20:00 - ארוחת ערב בקרקוב</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מסעדות כשרות בתחתית העמוד. 21:30 חזרה לביאלקה.</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>פירוט מסעדות כשרות בתחתית העמוד.<br>21:30 חזרה לביאלקה.</span></div>
             </div>
         </details>
     </div>
 
     <!-- Day 6 -->
     <div class="day-card">
-        <h2><i class="fa-regular fa-calendar-days"></i> יום שישי 7/8 - רפטינג דונייץ</h2>
+        <h2><i class="fa-regular fa-calendar-days"></i> יום שישי 7/8 - רפטינג נהר הדונייץ</h2>
 
         <details>
             <summary>
@@ -538,21 +604,22 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>יציאה ב-10:00. רפטינג פרטי.</span></div>
-                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 70 יורו ל-3 אנשים. חובה לתאם!</span></div>
-                <div class="info-row"><i class="fa-brands fa-whatsapp"></i><span><a href="https://wa.me/42194447798" target="_blank">וואטסאפ לתיאום</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/9x4fgZFx6i8pfpqL9" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-car-side"></i><span>10:00 יציאה לדרך</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>רפטינג של כשעה וחצי בנהר דונייץ בשמורת פניני + חזרה עם הסעה. סירת רפטינג פרטית שלכם עם מדריך.</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>עלות 70 יורו ל-3 אנשים+מדריך. עלות נסיעה חזרה לחניה 3 יורו לאדם.</span></div>
+                <div class="info-row"><i class="fa-brands fa-whatsapp"></i><span><a href="https://wa.me/42194447798" target="_blank">חובה לתאם מראש בוואטסאפ (מריה)</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/9x4fgZFx6i8pfpqL9" target="_blank">מיקום</a></span></div>
             </div>
         </details>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-binoculars main-icon"></i> 13:00-13:30 - תצפית בילאקה</div>
+                <div class="summary-title"><i class="fa-solid fa-binoculars main-icon"></i> 13:00-13:30 - תצפית בילאקה (אופציונלי)</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>נקודת תצפית. לאחר מכן הכנות לשבת.</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/vp3oHSABuyisQgty7" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>נקודת תצפית יפה על האזור. 14:00 הכנות לשבת.</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/vp3oHSABuyisQgty7" target="_blank">ניווט לתצפית</a></span></div>
             </div>
         </details>
     </div>
@@ -573,7 +640,7 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-link"></i><span><a href="https://www.accuweather.com/he/pl/morskie-oko/2680615/weather-forecast/2680615" target="_blank">תחזית למורסקי אוקו</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-link"></i><span><a href="https://www.accuweather.com/he/pl/morskie-oko/2680615/weather-forecast/2680615#google_vignette" target="_blank">תחזית למורסקי אוקו</a></span></div>
             </div>
         </details>
 
@@ -583,8 +650,9 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span><b>אופציה א' רכב:</b> <a href="https://tpn.gov.pl/parkingi-morskie-oko" target="_blank">להזמנה מראש</a> | <a href="https://maps.app.goo.gl/WUTtttdKnYeUDWyM6" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-bus"></i><span><b>אופציה ב' אוטובוס:</b> 20 זלוטי. <a href="https://maps.app.goo.gl/hwj6WTtVnm2U5ZGk8" target="_blank">מיקום</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-car-side"></i><span>9:00 יציאה לדרך</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span><b>אופציה א' - הגעה לחניה:</b> מומלץ להזמין מקום מראש ובכך לחסוך עלויות ולהבטיח מקום. עלות 35-75 זלוטי ליום. <br><a href="https://tpn.gov.pl/parkingi-morskie-oko" target="_blank">להזמנה מראש</a> | <a href="https://maps.app.goo.gl/WUTtttdKnYeUDWyM6" target="_blank">ניווט למיקום</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-bus"></i><span><b>אופציה ב' - אוטובוס מזקופנה:</b> חניה סמוך לתחנה המרכזית בזקופנה ועליה על אוטובוס (על בסיס מקום פנוי, חזרה באותה הדרך). עלות 20 זלוטי. <br><a href="https://maps.app.goo.gl/X96R6Hr3RorQKBe9A" target="_blank">חניה בזקופנה</a> | <a href="https://maps.app.goo.gl/hwj6WTtVnm2U5ZGk8" target="_blank">מיקום האוטובוסים</a></span></div>
             </div>
         </details>
 
@@ -594,8 +662,20 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מסלול יפהפה לאגם (8 ק"מ). כניסה 11 זלוטי.</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/S7eQ1ycyKMMQmMRe7" target="_blank">תחילה</a> | <a href="https://maps.app.goo.gl/eYZkD46dybvbMJWe6" target="_blank">אגם</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מדובר במסלול הליכה יפהפה בהרי הטטרה לאגם מורסקי אוקו. כ-8 ק"מ לצד, כשעתיים וחצי הליכה בכביש סלול עם מעט עליה. נופים מרהיבים כל הדרך, ספסלי מנוחה ומפלים.</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>כניסה לשמורה 11 זלוטי</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/S7eQ1ycyKMMQmMRe7" target="_blank">תחילת המסלול</a> | <a href="https://maps.app.goo.gl/eYZkD46dybvbMJWe6" target="_blank">האגם</a></span></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>
+                <div class="summary-title"><i class="fa-solid fa-mountain-sun main-icon"></i> 18:00 - נקודת תצפית (אופציונלי)</div>
+                <i class="fa-solid fa-chevron-down chevron-icon"></i>
+            </summary>
+            <div class="details-content">
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>נקודת תצפית יפהפייה על הרי הטטרה. כניסה חופשית.</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/2c4pqxB48kAKkyy58" target="_blank">ניווט לתצפית</a></span></div>
             </div>
         </details>
     </div>
@@ -610,9 +690,10 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/CGA8uPwT3H4fasMZ6" target="_blank">ניווט לחניון בקרקוב</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><b>הכיכר המרכזית:</b> <a href="https://maps.app.goo.gl/F1Hf1kWGToot59bt5" target="_blank">ניווט</a></span></div>
-                <div class="info-row"><i class="fa-solid fa-shop"></i><span><b>שוק אומנים:</b> <a href="https://maps.app.goo.gl/o6gG4MPEbd7sYSmc6" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-car-side"></i><span>10:30 יציאה, 12:30 הגעה לקרקוב</span></div>
+                <div class="info-row"><i class="fa-solid fa-square-parking"></i><span><a href="https://maps.app.goo.gl/CGA8uPwT3H4fasMZ6" target="_blank">ניווט לחניון בקרקוב</a> (שעת חניה 10 זלוטי)</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><b>הכיכר המרכזית (15 דק' הליכה):</b> <a href="https://maps.app.goo.gl/F1Hf1kWGToot59bt5" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-shop"></i><span><b>שוק אומנים וחנויות:</b> <a href="https://maps.app.goo.gl/o6gG4MPEbd7sYSmc6" target="_blank">ניווט</a></span></div>
             </div>
         </details>
 
@@ -622,18 +703,21 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>כניסה למוזיאונים החל מ-30 זלוטי</span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>הליכה כ-12 דק'</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות 9:00-19:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-ticket"></i><span>גנים חינם, לטירה תשלום משתנה לפי המוזיאונים בפנים מ-30 זלוטי</span></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/KJ44UsjSgaMJvoQF6" target="_blank">ניווט לטירה</a></span></div>
             </div>
         </details>
 
         <details>
             <summary>
-                <div class="summary-title"><i class="fa-solid fa-utensils main-icon"></i> 17:30-19:00 - ארוחת ערב וחזרה</div>
+                <div class="summary-title"><i class="fa-solid fa-utensils main-icon"></i> 17:30-19:00 - ארוחת ערב מוקדמת וחזרה</div>
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-bed"></i><span>19:30 הגעה למלון. <a href="https://maps.app.goo.gl/BhQC2rBBku5zopYk8" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מבחר מסעדות כשרות בקרקוב פירוט בתחתית העמוד.</span></div>
+                <div class="info-row"><i class="fa-solid fa-bed"></i><span>19:30 הגעה למלון. <a href="https://maps.app.goo.gl/BhQC2rBBku5zopYk8" target="_blank">ניווט למלון</a></span></div>
             </div>
         </details>
     </div>
@@ -641,9 +725,9 @@
     <!-- Day 10 -->
     <div class="day-card" style="border-top-color: #2E8B57;">
         <h2><i class="fa-solid fa-plane-departure"></i> יום שלישי 11/8 - חוזרים הביתה</h2>
-        <div class="info-row" style="padding:10px;"><i class="fa-solid fa-car-side"></i><span>02:30 יציאה לשדה התעופה</span></div>
-        <div class="info-row" style="padding:10px;"><i class="fa-solid fa-key"></i><span>02:45 החזרת הרכב</span></div>
-        <div class="info-row" style="padding:10px;"><i class="fa-solid fa-plane-up"></i><span>05:40 המראה לישראל. טיסה נעימה!</span></div>
+        <div class="info-row" style="padding:10px;"><i class="fa-solid fa-car-side"></i><span>2:30 יציאה לשדה התעופה</span></div>
+        <div class="info-row" style="padding:10px;"><i class="fa-solid fa-key"></i><span>2:45 החזרת הרכב בשדה</span></div>
+        <div class="info-row" style="padding:10px;"><i class="fa-solid fa-plane-up"></i><span>5:40 המראה לישראל. טיסה נעימה!</span></div>
     </div>
 
     <!-- Kosher Restaurants -->
@@ -656,8 +740,9 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מנות קבועות 50 יורו.</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/JTFoaYwW1E48hrzx9" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>מנות בשריות קבועות. עלות 50 יורו לאדם.</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות 9:00-23:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/JTFoaYwW1E48hrzx9" target="_blank">ניווט למסעדה</a></span></div>
             </div>
         </details>
 
@@ -668,7 +753,8 @@
             </summary>
             <div class="details-content">
                 <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>בשרי לפי תפריט.</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/g8ajNA5nDXF1a2po6" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות 12:00-21:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/g8ajNA5nDXF1a2po6" target="_blank">ניווט למסעדה</a></span></div>
             </div>
         </details>
 
@@ -678,8 +764,9 @@
                 <i class="fa-solid fa-chevron-down chevron-icon"></i>
             </summary>
             <div class="details-content">
-                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>פלאפל, פיצות.</span></div>
-                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/7CcinoNADCHpyYj5A" target="_blank">ניווט</a></span></div>
+                <div class="info-row"><i class="fa-solid fa-circle-info"></i><span>פלאפל, פיצות ושקשוקה. עלות לפי תפריט.</span></div>
+                <div class="info-row"><i class="fa-regular fa-clock"></i><span>שעות פתיחה 9:30-20:00</span></div>
+                <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><a href="https://maps.app.goo.gl/7CcinoNADCHpyYj5A" target="_blank">ניווט למסעדה</a></span></div>
             </div>
         </details>
     </div>
@@ -806,11 +893,13 @@
         </table>
     </div>
 
-     
-  <footer>
-        <div class="footer-colored">כל הזכויות שמורות להדס טרכטר - יועצת טיולים בארץ ובעולם 050-5685356.</div>
-        <div class="footer-gray">אין להעביר ללא אישור מפורש. העובר על כך עובר על גזל לפי דין תורה וחוקי המקום.</div>
-    </footer>
-    
+    <!-- Footer -->
+    <div class="footer">
+        <span class="footer-line1">כל הזכויות שמורות להדס טרכטר - יועצת טיולים בארץ ובעולם 050-5685356</span>
+        <span class="footer-line2">אין להעביר ללא אישור מפורש. העובר על כך עובר על גזל לפי דין תורה וחוקי המקום.</span>
+    </div>
+
+</div>
+
 </body>
 </html>
